@@ -13,11 +13,13 @@
    ```bash
    git clone https://github.com/yourusername/todo-bot.git
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
-3. Set up your bot token:
-   Create a config.json file in the app directory with your Telegram bot token:
+4. Set up your bot token:
+5. Create a config.json file in the app directory with your Telegram bot token:
 {
    "token": "your-telegram-bot-token"
 }
-5. Run the bot:
+6. Run the bot:
+   ```bash
    python run.py
