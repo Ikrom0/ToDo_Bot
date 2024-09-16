@@ -15,11 +15,9 @@
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-4. Set up your bot token:
-5. Create a config.json file in the app directory with your Telegram bot token:
-{
-   "token": "your-telegram-bot-token"
-}
-6. Run the bot:
+3. Create a config.json file in the app directory with your Telegram bot token:
+   ```bash
+   {"token": "your-telegram-bot-token"}
+5. Run the bot:
    ```bash
    python run.py
