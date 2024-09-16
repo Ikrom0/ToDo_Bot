@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.ERROR)
 
 async def connect_to_db():
     try:
-        return await aiosqlite.connect(r'D:\projects\todo_data\database.db')
+        return await aiosqlite.connect(r'app\database.db')
     except Exception as e:
         logging.error(f"Ошибка при подключении к базе данных: {e}")
         return None

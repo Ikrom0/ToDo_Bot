@@ -12,6 +12,8 @@ app/config.json
 # Pychache
 __pycache__/
 
+# Database file
+app/database.db
 
 # Editor Configurations
 .vscode/
