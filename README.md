@@ -1,8 +1,6 @@
 <p align="center">
-    <img src="https://cdn-aicin.nitrocdn.com/HIAjYmsdLpRQdKpIMJLXFmZsSAYnEnkl/assets/images/optimized/rev-86c0feb/www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg" alt="My Image" width="800" height="500"/>
-</p>
-
-**ToDo Bot is a simple and efficient task management bot designed to help users organize their tasks and deadlines with ease.**
+    <img src="https://cdn-aicin.nitrocdn.com/HIAjYmsdLpRQdKpIMJLXFmZsSAYnEnkl/assets/images/optimized/rev-86c0feb/www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg" alt="My Image" width="700" height="400"/>
+</p>**ToDo Bot is a simple and efficient task management bot designed to help users organize their tasks and deadlines with ease.**
 
 ## Features
 - 📋 **Add Tasks**: Easily create tasks with deadlines to keep track of your schedule.
