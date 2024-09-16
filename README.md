@@ -23,8 +23,8 @@
 3. Create a config.json file in the app directory with your Telegram bot token:
    ```python
    {"token": "your-telegram-bot-token"}
-4. Add the database file:
-    <div>Place the database.db file into the project's directory app</div>
+4. Add and place the database.db file into the project's directory app
+   
 5. Set up the database:Ensure you have SQLite installed. Create the required tables in the database. You can use the following SQL commands to set up your database schema:
    ```sqlite
    -- Create the users table
