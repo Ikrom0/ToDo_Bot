@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://cdn-aicin.nitrocdn.com/HIAjYmsdLpRQdKpIMJLXFmZsSAYnEnkl/assets/images/optimized/rev-86c0feb/www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg" alt="My Image" width="700" height="400"/>
+    <img src="https://cdn-aicin.nitrocdn.com/HIAjYmsdLpRQdKpIMJLXFmZsSAYnEnkl/assets/images/optimized/rev-86c0feb/www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg" alt="My Image" width="600" height="300"/>
 </p>
 
 <p align="center" style="font-weight: bold;">
