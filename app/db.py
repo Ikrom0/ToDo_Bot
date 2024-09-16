@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.ERROR)
 
 async def connect_to_db():
     try:
-        return await aiosqlite.connect(r'app\database.db')
+        return await aiosqlite.connect(r'D:\projects\todo_data\database.db')
     except Exception as e:
         logging.error(f"Ошибка при подключении к базе данных: {e}")
         return None
@@ -41,7 +41,7 @@ async def fetch_tasks_db(user_id):
     if not conn:
         return []
     try:
-        async with conn.execute("SELECT task, reminder_time, id FROM tasks WHERE user_id = ?", (user_id, )) as cursor:
+        async with conn.execute("SELECT task, time, id FROM tasks WHERE user_id = ?", (user_id, )) as cursor:
             return await cursor.fetchall()
     except Exception as e:
         logging.error(f"Ошибка при получении задач: {e}")
@@ -54,7 +54,7 @@ async def fetch_data_for_notification_db():
     if not conn:
         return []
     try:
-        async with conn.execute("SELECT user_id, task, reminder_time FROM tasks WHERE reminder_time IS NOT NULL") as cursor:
+        async with conn.execute("SELECT user_id, task, time FROM tasks WHERE time IS NOT NULL") as cursor:
             return await cursor.fetchall()
     except Exception as e:
         logging.error(f"Ошибка при получении данных для уведомлений: {e}")
@@ -91,7 +91,7 @@ async def add_reminder_and_task_db(user_id, task, time=None):
     if not conn:
         return
     try:
-        await conn.execute("INSERT INTO tasks(user_id, task, reminder_time) VALUES(?,?,?);", (user_id, task, time))
+        await conn.execute("INSERT INTO tasks(user_id, task, time) VALUES(?,?,?);", (user_id, task, time))
         await conn.commit()
     except Exception as e:
         logging.error(f"Ошибка при добавлении задачи и напоминания: {e}")
