@@ -1,7 +1,8 @@
 <p align="center">
     <img src="https://cdn-aicin.nitrocdn.com/HIAjYmsdLpRQdKpIMJLXFmZsSAYnEnkl/assets/images/optimized/rev-86c0feb/www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg" alt="My Image" width="700" height="400"/>
 </p>
-<p align="center" style="font-weight: bold;>
+
+<p align="center" style="font-weight: bold;">
     ToDo Bot is a simple and efficient task management bot designed to help users organize their tasks and deadlines with ease.
 </p>
 
