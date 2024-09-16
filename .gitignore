@@ -1,13 +1,18 @@
-# Игнорировать виртуальное окружение
+# Virtual Environments
 venv/
+bin/
+lib/
 
-# Игнорировать файл конфигурации в папке app
+# Configuration
 app/config.json
 
-# Игнорировать все файлы логов
+# logs
 *.log
 
-# Игнорировать pychache
+# Pychache
 __pycache__/
-*.pyc
-*.pyo
+
+
+# Editor Configurations
+.vscode/
+.idea/
